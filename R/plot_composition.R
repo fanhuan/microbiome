@@ -240,5 +240,4 @@ make_lineplot1 <- function (dfm) {
         guides(fill=guide_legend(reverse=FALSE))
 
     p
-
 }
