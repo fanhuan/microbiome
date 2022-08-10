@@ -40,7 +40,7 @@
 #'          otu.sort = "abundance", verbose = TRUE) +
 #'      scale_fill_manual(values = default_colors("Phylum")[taxa(pseq)]) 
 #' @keywords utilities
-plot_composition <- function(x,
+plot_composition_1 <- function(x,
     sample.sort=NULL,
     otu.sort=NULL,
     x.label="sample",
